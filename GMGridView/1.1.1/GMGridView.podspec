@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
                 'with his finger to sort them) and pinching/rotating/panning ' \
                 'gestures allow the user to play with the view and toggle from ' \
                 'the cellview to a fullsize display.'
-  s.homepage  = 'https://github.com/gmoledina/GMGridView'
+  s.homepage  = 'https://github.com/tiago-g-henriques/GMGridView'
   s.author    = { 'Gulam Moledina' =>  'http://www.gmoledina.ca/' }
-  s.source    = { :git => 'https://github.com/gmoledina/GMGridView.git',
+  s.source    = { :git => 'https://github.com/tiago-g-henriques/GMGridView.git',
                   :tag => 'v1.1.1' }
   s.source_files = 'GMGridView/*.{h,m}'
   s.requires_arc = true
