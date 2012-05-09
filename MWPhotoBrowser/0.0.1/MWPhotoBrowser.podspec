@@ -10,7 +10,23 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MWPhotoBrowser/Classes'
   s.resources = "MWPhotoBrowser/MWPhotoBrowser.bundle"
-  s.clean_paths = "Demo", "MWPhotoBrowser/Libraries", "MWPhotoBrowser.xcodeproj", "MWPhotoBrowser-Prefix.pch"
+  s.clean_paths = '**/*.xcodeproj',
+    '**/*.xcworkspace',
+    '**/*.pch',
+    '**/*.lproj',
+    '**/*.plist',
+    "**/main.m",
+    '**/.gitignore',
+    '**/.DS_Store',
+    '**/*.txt',
+    '**/*.md',
+    '**/*.markdown',
+    'Demo',
+    'MWPhotoBrowser/Libraries',
+    'Podfile',
+    'Podfile.lock',
+    'Pods'
+
   s.framework = 'MessageUI'
 
   s.dependency 'SDWebImage'
