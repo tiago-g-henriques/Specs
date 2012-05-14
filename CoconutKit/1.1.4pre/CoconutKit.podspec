@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Tiago Henriques' => 'tiago-g-henriques@telecom.pt' }
   s.source   = { :git => 'https://github.com/tiago-g-henriques/CoconutKit.git', :commit => '328282cecb8405ff0d7cd9363723c5de614181b1' }
   s.platform = :ios
-  s.source_files = 'CoconutKit/**/*.{h,m,pch}'
+  s.source_files = 'CoconutKit/**/*.{h,m}'
   s.resources = "CoconutKit/**/*.{png,xib,strings,bundle}"
   s.frameworks = 'CoreData', 'CoreGraphics', 'Foundation', 'MessageUI', 'QuartzCore', 'UIKit'
   s.clean_paths = '**/*.xcodeproj',
