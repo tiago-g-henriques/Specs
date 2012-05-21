@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
 
   s.source = { :git => 'https://github.com/tiago-g-henriques/SDWebImage.git', :tag => '2.4' }
   s.source_files = '*.[mh]'
+  s.clean_paths = '**/.gitignore'
 end

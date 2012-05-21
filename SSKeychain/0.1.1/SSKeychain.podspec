@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/tiago-g-henriques/sskeychain.git', :tag => '0.1.1' }
   s.description  = 'SSKeychain is a simple utility class for making the system keychain less sucky.'
   s.source_files = 'SSKeychain.*'
+  s.clean_paths = '**/.gitignore'
   s.frameworks   = 'Security'
 end

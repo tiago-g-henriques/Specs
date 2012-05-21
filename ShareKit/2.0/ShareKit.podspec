@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/tiago-g-henriques/ShareKit'
   s.author   = { 'ShareKit Community' => 'No Email' }
   s.source   = { :git => 'https://github.com/tiago-g-henriques/ShareKit.git', :tag => 'v2.0' }
+  s.clean_paths = '**/.gitignore'
 
   s.subspec 'Core' do |core|
   	core.resource = 'Classes/ShareKit/ShareKit.bundle', 'Classes/ShareKit/Core/SHKSharers.plist'

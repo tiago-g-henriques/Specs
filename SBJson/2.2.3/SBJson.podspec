@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/tiago-g-henriques/json-framework.git', :tag => 'v2.2.3' }
 
   s.source_files = 'Source'
+  s.clean_paths = '**/.gitignore'
 end
