@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'A simple iOS photo browser'
   s.homepage = 'https://github.com/tiago-g-henriques/MWPhotoBrowser'
   s.author   = { 'Michael Waterfall' => 'mw@d3i.com' }
-  s.source   = { :git => 'https://github.com/tiago-g-henriques/MWPhotoBrowser.git', :commit => 'aa4fd901ccc164f11749773bcff60672dd2669cf' }
+  s.source   = { :git => 'https://github.com/tiago-g-henriques/MWPhotoBrowser.git', :tag => '0.0.1' }
   s.platform = :ios
 
   s.source_files = 'MWPhotoBrowser/Classes'

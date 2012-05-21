@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/tiago-g-henriques/facebook-ios-sdk'
   s.author   = 'Facebook'
 
-  s.source   = { :git => 'https://github.com/tiago-g-henriques/facebook-ios-sdk.git', :commit => 'e79d07272218d41bfd940fa5b4518d0f274a8085' }
+  s.source   = { :git => 'https://github.com/tiago-g-henriques/facebook-ios-sdk.git', :tag => 'v0.0.1' }
 
   s.source_files = 'src/*.{h,m}'
   s.resource     = 'FBDialog.bundle'

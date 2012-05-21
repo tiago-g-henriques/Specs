@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Drop in sharing features for all iPhone and iPad apps.'
   s.homepage = 'https://github.com/tiago-g-henriques/ShareKit'
   s.author   = { 'ShareKit Community' => 'No Email' }
-  s.source   = { :git => 'https://github.com/tiago-g-henriques/ShareKit.git', :commit => 'b8129c7c229a383ea5926aaa7869aadbccb71e8f' }
+  s.source   = { :git => 'https://github.com/tiago-g-henriques/ShareKit.git', :tag => 'v2.0' }
 
   s.subspec 'Core' do |core|
   	core.resource = 'Classes/ShareKit/ShareKit.bundle', 'Classes/ShareKit/Core/SHKSharers.plist'

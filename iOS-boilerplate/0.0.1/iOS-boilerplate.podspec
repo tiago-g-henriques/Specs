@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'IOS Boilerplate is a base template for iOS projects'
   s.homepage = 'https://tiago-g-henriques@github.com/tiago-g-henriques/iOS-boilerplate'
   s.author   = { 'Tiago Henriques' => 'tiago-g-henriques@telecom.pt' }
-  s.source   = { :git => 'https://tiago-g-henriques@github.com/tiago-g-henriques/iOS-boilerplate.git', :commit => '9b6679aa872093bdf8d7f716fd454a7c4164981d' }
+  s.source   = { :git => 'https://tiago-g-henriques@github.com/tiago-g-henriques/iOS-boilerplate.git', :tag => '0.0.1' }
   s.platform = :ios
   s.source_files = 'IOSBoilerplate/**/*.{h,m}'
   s.resources = "IOSBoilerplate/**/*.{png,xib,strings,plist}"

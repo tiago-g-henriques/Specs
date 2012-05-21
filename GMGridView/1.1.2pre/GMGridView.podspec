@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage  = 'https://github.com/tiago-g-henriques/GMGridView'
   s.author    = { 'Gulam Moledina' =>  'http://www.gmoledina.ca/' }
   s.source    = { :git => 'https://github.com/tiago-g-henriques/GMGridView.git',
-                  :revision => 'a8b0f0731ea585d7b7897a6ed8834c319c3e1635' }
+                  :tag => 'v1.1.2pre' }
   s.source_files = 'GMGridView/*.{h,m}'
   s.requires_arc = true
   s.frameworks = 'QuartzCore'

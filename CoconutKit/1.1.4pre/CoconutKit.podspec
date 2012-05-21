@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'CoconutKit is a library of high-quality iOS components'
   s.homepage = 'https://github.com/tiago-g-henriques/CoconutKit'
   s.author   = { 'Tiago Henriques' => 'tiago-g-henriques@telecom.pt' }
-  s.source   = { :git => 'https://github.com/tiago-g-henriques/CoconutKit.git', :commit => '328282cecb8405ff0d7cd9363723c5de614181b1' }
+  s.source   = { :git => 'https://github.com/tiago-g-henriques/CoconutKit.git', :tag => '1.1.4pre' }
   s.platform = :ios
   s.source_files = 'CoconutKit/**/*.{h,m}'
   s.resources = "CoconutKit/**/*.{png,xib,strings,bundle}"

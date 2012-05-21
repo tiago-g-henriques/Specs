@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Matej Bukovinski' => 'matej@bukovinski.com',
                  'Jonathan George'  => 'jonathan@jdg.net' }
 
-  s.source   = { :git => 'https://github.com/tiago-g-henriques/MBProgressHUD.git', :commit => '3d5c3cc9934b229747c902332733fe4e6fe325e4' }
+  s.source   = { :git => 'https://github.com/tiago-g-henriques/MBProgressHUD.git', :tag => 'v0.6pre' }
 
   s.description  = 'MBProgressHUD is an iOS drop-in class that displays a translucent HUD with a ' \
                    'progress indicator and some optional labels while work is being done in a ' \
