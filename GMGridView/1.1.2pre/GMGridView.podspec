@@ -1,7 +1,8 @@
 Pod::Spec.new do |s|
   s.name      = 'GMGridView'
-  s.version   = '1.1.1'
+  s.version   = '1.1.2pre'
   s.platform  = :ios
+  s.license   = 'MIT'
   s.summary   = 'A performant Grid-View for iOS (iPhone/iPad) that allows ' \
                 'sorting of views with gestures (the user can move the items ' \
                 'with his finger to sort them) and pinching/rotating/panning ' \
@@ -10,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage  = 'https://github.com/tiago-g-henriques/GMGridView'
   s.author    = { 'Gulam Moledina' =>  'http://www.gmoledina.ca/' }
   s.source    = { :git => 'https://github.com/tiago-g-henriques/GMGridView.git',
-                  :tag => 'v1.1.1' }
+                  :tag => 'v1.1.2pre' }
   s.source_files = 'GMGridView/*.{h,m}'
   s.requires_arc = true
   s.frameworks = 'QuartzCore'
