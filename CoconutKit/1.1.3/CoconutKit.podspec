@@ -10,11 +10,5 @@ Pod::Spec.new do |s|
   s.source_files = 'CoconutKit/**/*.{h,m}'
   s.resources = "CoconutKit/**/*.{png,xib,strings,bundle}"
   s.frameworks = 'CoreData', 'CoreGraphics', 'Foundation', 'MessageUI', 'QuartzCore', 'UIKit'
-
-  def s.post_install(target)
-    prefix_header = config.project_pods_root + target.prefix_header_filename
-    prefix_header.open('a') do |file|
-      file.puts(%{#import "CoconutKit-Prefix.pch"})
-    end
-  end
+  s.prefix_header_file = 'CoconutKit/CoconutKit-Prefix.pch'
 end

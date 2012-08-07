@@ -18,11 +18,5 @@ Pod::Spec.new do |s|
   s.dependency 'EGOTableViewPullRefresh', '~> 0.1.0'
   s.dependency 'JSONKit',                 '~> 1.4'
   s.dependency 'SVProgressHUD',           '~> 0.2'
-
-  def s.post_install(target)
-    prefix_header = config.project_pods_root + target.prefix_header_filename
-    prefix_header.open('a') do |file|
-      file.puts(%{#import "IOSBoilerplate-Prefix.pch"})
-    end
-  end
+  s.prefix_header_file = 'IOSBoilerplate/IOSBoilerplate-Prefix.pch'
 end

@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+  s.platform = :ios
   s.name     = 'AFNetworking'
   s.version  = '0.5.1'
   s.summary  = 'A delightful iOS networking library with NSOperations and block-based callbacks.'

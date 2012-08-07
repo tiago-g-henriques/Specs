@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/tiago-g-henriques/facebook-ios-sdk.git', :tag => 'v0.0.1' }
 
   s.source_files = 'src/*.{h,m}'
-  s.resource     = 'FBDialog.bundle'
+  s.resource     = 'src/FBDialog.bundle'
 
   s.dependency 'SBJson', '2.2.3'
 end

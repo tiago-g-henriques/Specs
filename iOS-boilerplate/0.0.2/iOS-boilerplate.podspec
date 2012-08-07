@@ -14,15 +14,9 @@ Pod::Spec.new do |s|
   # xcconfig hash.
   #
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  s.dependency 'AFNetworking',            '~> 0.10.0'
+  s.dependency 'AFNetworking',            '~> 0.7.0'
   s.dependency 'EGOTableViewPullRefresh', '~> 0.1.0'
   s.dependency 'JSONKit',                 '~> 1.4'
   s.dependency 'SVProgressHUD',           '~> 0.7'
-
-  def s.post_install(target)
-    prefix_header = config.project_pods_root + target.prefix_header_filename
-    prefix_header.open('a') do |file|
-      file.puts(%{#import "IOSBoilerplate-Prefix.pch"})
-    end
-  end
+  s.prefix_header_file = 'IOSBoilerplate/IOSBoilerplate-Prefix.pch'
 end
