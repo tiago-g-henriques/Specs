@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'RNCachingURLProtocol is a simple shim for the HTTP protocol.'
   s.homepage = 'https://github.com/tiago-g-henriques/RNCachingURLProtocol'
   s.author   = { 'Tiago Henriques' => 'tiago-g-henriques@telecom.pt' }
-  s.source   = { :git => 'https://github.com/tiago-g-henriques/RNCachingURLProtocol.git', :commit => '266b5358d68864960070ce1559716a727cbb8500' }
+  s.source   = { :git => 'https://github.com/tiago-g-henriques/RNCachingURLProtocol.git', :tag => '0.0.1' }
   s.platform = :ios
   s.source_files = 'RNCachingURLProtocol.{h,m}'
   # s.resources = "**/*.{png,xib,strings,bundle}"
