@@ -11,11 +11,9 @@ Pod::Spec.new do |s|
   s.resources = "Resources/**/*.{png,xib,bundle}"
   s.frameworks = 'Foundation', 'UIKit', 'MessageUI', 'MediaPlayer'
 
-  def s.post_install(target)
-    prefix_header = config.project_pods_root + target.prefix_header_filename
-    prefix_header.open('a') do |file|
-      file.puts(%{#ifdef __OBJC__\n#import "SKMacros.h"\n#endif})
-    end
-  end
-
+  s.prefix_header_contents = %{
+  #ifdef __OBJC__
+  #import "SKMacros.h"
+  #endif
+  }
 end
