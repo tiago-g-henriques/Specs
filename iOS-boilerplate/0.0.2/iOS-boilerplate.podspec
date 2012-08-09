@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   # xcconfig hash.
   #
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  s.dependency 'AFNetworking',            '~> 0.7.0'
+  s.dependency 'AFNetworking',            '= 0.7.0'
   s.dependency 'EGOTableViewPullRefresh', '~> 0.1.0'
   s.dependency 'JSONKit',                 '~> 1.4'
   s.dependency 'SVProgressHUD',           '~> 0.7'
