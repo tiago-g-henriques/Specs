@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source_files = 'GMGridView/*.{h,m}'
   s.requires_arc = true
   s.frameworks = 'QuartzCore'
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '= 0.7.0'
 end
